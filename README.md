@@ -13,13 +13,13 @@
 通过 jsDelivr 访问：
 
 ```
-https://cdn.jsdelivr.net/gh/seven/elaine-tarot-cards@main/cards/{code}.jpg
+https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/{code}.jpg
 ```
 
 例如：
-- `https://cdn.jsdelivr.net/gh/seven/elaine-tarot-cards@main/cards/ar00.jpg` — 愚人
-- `https://cdn.jsdelivr.net/gh/seven/elaine-tarot-cards@main/cards/ar19.jpg` — 太阳
-- `https://cdn.jsdelivr.net/gh/seven/elaine-tarot-cards@main/cards/cu10.jpg` — 圣杯十
+- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/ar00.jpg` — 愚人
+- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/ar19.jpg` — 太阳
+- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/cu10.jpg` — 圣杯十
 
 ## 卡牌编号
 
