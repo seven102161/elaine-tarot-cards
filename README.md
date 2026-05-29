@@ -1,12 +1,29 @@
 # Elaine Tarot Cards 🌙
 
-塔罗牌牌面图片，用于 Elaine 的塔罗牌互动游戏。
+完整 78 张 Rider-Waite-Smith 塔罗牌牌面图片，用于 Elaine 的塔罗牌互动游戏。
+
+## 状态
+
+✅ **78/78 张已集齐**
+
+| 套组 | 数量 | 状态 |
+|------|------|------|
+| 大阿卡纳 | 22 张 | ✅ 全部 |
+| 权杖 | 14 张 | ✅ 全部（含首牌 + 宫廷） |
+| 圣杯 | 14 张 | ✅ 全部（含首牌 + 宫廷） |
+| 星币 | 14 张 | ✅ 全部（含首牌 + 宫廷） |
+| 宝剑 | 14 张 | ✅ 全部（含首牌 + 宫廷） |
+
+## 图片规格
+
+- 高度 800px（等比缩放），JPEG 格式，Quality 90
+- 总大小约 8.6MB
 
 ## 来源
 
-- 所有图片来自 Wikimedia Commons 的公版 Rider-Waite 塔罗牌
-- 统一缩放到 800px 高度（较长边），JPEG 格式，quality 90
-- 共 49 张（22 张大阿卡纳 + 9×3 张数字牌，不含宫廷牌和星币）
+- 主体（60 张）：Wikimedia Commons "Roses & Lilies" 公版 RWS 套装
+- 补缺（9 张）：豆瓣相册《珍妮艾莉的韦特塔罗牌》（宝剑首牌/宫廷 + 星币宫廷）
+- 补缺（9 张）：GitHub `metabismuth/tarot-json`（星币数字牌 pe02-pe10）
 
 ## CDN 使用
 
@@ -16,14 +33,15 @@
 https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/{code}.jpg
 ```
 
-例如：
-- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/ar00.jpg` — 愚人
-- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/ar19.jpg` — 太阳
-- `https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/cu10.jpg` — 圣杯十
+示例：
+- `.../ar00.jpg` — 愚人 (The Fool)
+- `.../pe05.jpg` — 星币五 (Five of Pentacles)
+- `.../swkn.jpg` — 宝剑骑士 (Knight of Swords)
 
-## 卡牌编号
+## 卡牌编号对照
 
-### 大阿卡纳 (ar00-ar21)
+### 大阿卡纳 (ar00–ar21)
+
 | 编号 | 中文名 | 英文名 |
 |------|--------|--------|
 | ar00 | 愚人 | The Fool |
@@ -49,20 +67,49 @@ https://cdn.jsdelivr.net/gh/seven102161/elaine-tarot-cards@main/cards/{code}.jpg
 | ar20 | 审判 | Judgement |
 | ar21 | 世界 | The World |
 
-### 权杖 (wa02-wa10)
-wa02-wa10: 权杖二 ~ 权杖十
+### 权杖 (wa)
 
-### 圣杯 (cu02-cu10)
-cu02-cu10: 圣杯二 ~ 圣杯十
+| 编号 | 中文名 | 英文名 |
+|------|--------|--------|
+| waac | 权杖首牌 | Ace of Wands |
+| wa02–wa10 | 权杖二 ~ 十 | Two ~ Ten of Wands |
+| wapa | 权杖侍从 | Page of Wands |
+| wakn | 权杖骑士 | Knight of Wands |
+| waqu | 权杖王后 | Queen of Wands |
+| waki | 权杖国王 | King of Wands |
 
-### 宝剑 (sw02-sw10)
-sw02-sw10: 宝剑二 ~ 宝剑十
+### 圣杯 (cu)
 
-### 暂无图片
-- 权杖首牌/宫廷: waac, wapa, wakn, waqu, waki
-- 圣杯首牌/宫廷: cuac, cupa, cukn, cuqu, cuki
-- 星币全部: peac-pe10, pepa, pekn, pequ, peki
-- 宝剑首牌/宫廷: swac, swpa, swkn, swqu, swki
+| 编号 | 中文名 | 英文名 |
+|------|--------|--------|
+| cuac | 圣杯首牌 | Ace of Cups |
+| cu02–cu10 | 圣杯二 ~ 十 | Two ~ Ten of Cups |
+| cupa | 圣杯侍从 | Page of Cups |
+| cukn | 圣杯骑士 | Knight of Cups |
+| cuqu | 圣杯王后 | Queen of Cups |
+| cuki | 圣杯国王 | King of Cups |
+
+### 星币 (pe)
+
+| 编号 | 中文名 | 英文名 |
+|------|--------|--------|
+| peac | 星币首牌 | Ace of Pentacles |
+| pe02–pe10 | 星币二 ~ 十 | Two ~ Ten of Pentacles |
+| pepa | 星币侍从 | Page of Pentacles |
+| pekn | 星币骑士 | Knight of Pentacles |
+| pequ | 星币王后 | Queen of Pentacles |
+| peki | 星币国王 | King of Pentacles |
+
+### 宝剑 (sw)
+
+| 编号 | 中文名 | 英文名 |
+|------|--------|--------|
+| swac | 宝剑首牌 | Ace of Swords |
+| sw02–sw10 | 宝剑二 ~ 十 | Two ~ Ten of Swords |
+| swpa | 宝剑侍从 | Page of Swords |
+| swkn | 宝剑骑士 | Knight of Swords |
+| swqu | 宝剑王后 | Queen of Swords |
+| swki | 宝剑国王 | King of Swords |
 
 ## 许可证
 
